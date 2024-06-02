@@ -91,7 +91,7 @@ const Contato = () => {
         <Text>Nome:</Text>
         <TextInput
           style={styles.input}
-          placeholder='Ex: Natanael'
+          placeholder='Ex: Matheus'
           onChangeText={setName}
           value={firstName}
         />
@@ -99,7 +99,7 @@ const Contato = () => {
         <Text>Sobrenome:</Text>
         <TextInput
           style={styles.input}
-          placeholder='Ex: Amo ela da Silva Pinto'
+          placeholder='Ex: Mendes'
           onChangeText={setSecondName}
           value={secondName}
         />
